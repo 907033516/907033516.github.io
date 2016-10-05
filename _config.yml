@@ -6,8 +6,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 #highlighter: pygments
 
-assets: https://miaochiahao.github.io/assets
-baseurl: https://miaochiahao.github.io
+assets: https://github.com/907033516/Er-Xiang.github.io/assets
+baseurl: https://github.com/907033516/Er-Xiang.github.io
 
 # pagination
 paginate: 10
@@ -27,8 +27,8 @@ kramdown:
     input: GFM
 highlighter: rouge
 
-title : Miao Chiahao's Blog
-tagline: 此后如竟没有炬火，我便是唯一的光，我真是学英语的
+title : My Blog
+tagline: 重剑无锋，大巧不工。
 
 defaults:
   -
@@ -43,6 +43,8 @@ menu:
   Home: /
   Archives: /archives
   About: /about
+  tags: /tags
+  categories: /categories
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -56,8 +58,8 @@ widgets:
 - tag
 - links
 - weibo
-#- douban
-#- rss
+- douban
+- rss
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
@@ -67,10 +69,10 @@ rss: /atom.xml ## RSS address.
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
-  src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
-apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
-author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
+  src: img/my logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
+favicon: img/favicon3.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
+apple_icon: img/pika2.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
+author_img: img/pika3.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 
 #### index post is expanding or not 
@@ -83,17 +85,17 @@ mathjax: false      #enable mathjax if true
 
 #### Author information
 author:
-  name: Miao Chiahao      ## e.g. wuchong Author name
-  intro_line1:  "I'm Miao Chiahao."    ## your introduction on the bottom of the page
-  intro_line2:  "Too simple, sometimes naive."  ## the 2nd line
-  weibo: 5451714789      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier: 8266a57e  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina: 5451714789      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  name: Xie Xiang'an      ## e.g. wuchong Author name
+  intro_line1:  "I'm Xie Xiang'an."    ## your introduction on the bottom of the page
+  intro_line2:  "Too simple, sometimes foolish."  ## the 2nd line
+ # weibo: 5451714789      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+ # weibo_verifier: 8266a57e  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+ #tsina: 5451714789      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
 #  douban: 62234732     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu: miao-jia-hao      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email: miaojiahao@hnu.edu.cn      ## e.g. imjark@gmail.com
+  #zhihu: miao-jia-hao      ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: 907033516@qq.com      ## e.g. imjark@gmail.com
 #  twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: miaochiahao     ## e.g. wuchong for https://github.com/wuchong
+  github: 907033516     ## e.g. wuchong for https://github.com/wuchong
 #  facebook:   ## e.g. imjark for https://facebook.com/imjark
 #  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
 #  google_plus: "103860633659538888207"    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
@@ -110,16 +112,16 @@ toc:
 #### Links
 links:
   #此处应添加链接
-  Honsen: http://honsen.top
-  默小西: http://momomoxiaoxi.com
-  树洞: https://aoaoao.me
-  Flyout: http://wwwflyoutsan.cn/blog/index.php/zh/
+  #Honsen: http://honsen.top
+  #默小西: http://momomoxiaoxi.com
+  #树洞: https://aoaoao.me
+ # Flyout: http://wwwflyoutsan.cn/blog/index.php/zh/
 
 excerpt_separator: <!--more-->
 
 #### Comment
-duoshuo_shortname: chiahao   ## e.g. wuchong   your duoshuo short name. #这里需要配置，应该是评论区
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+duoshuo_shortname: Er Xiang   ## e.g. wuchong   your duoshuo short name. #这里需要配置，应该是评论区
+disqus_shortname:  Er Xiang   ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
@@ -129,21 +131,21 @@ jiathis:
 
 #### Analytics
 google_analytics:
-  enable: true
+  enable: false
   id: UA-67994495-1        ## e.g. UA-46321946-2 your google analytics ID.
   site: auto      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: true
+  enable: false
   sitecode: be6b0fdf06f915153735a42fb468f9ba ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
-fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
-totop: true           ## if you want to scroll to top in every post set the value to true
+fancybox: false        ## if you use gallery post or want use fancybox please set the value to true.
+totop: false           ## if you want to scroll to top in every post set the value to true
 
 
 #### Custom Search
