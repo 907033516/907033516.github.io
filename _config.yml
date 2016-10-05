@@ -6,8 +6,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 #highlighter: pygments
 
-assets: https://907033516.github.com/assets
-baseurl: https://github.com/907033516/Er-Xiang.github.io
+assets: https://Er-Xiang.github.io/assets
+baseurl: https://907033516.github.io/
 
 # pagination
 paginate: 10
